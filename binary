@@ -1,0 +1,12 @@
+#Convert Decimal into Binary using Recursion..
+n=input()
+a=""
+def deci(a,n):
+    if(n==0):
+        return a
+    else:
+        rem=n%2
+        a+=str(rem)
+        return deci(a,n/2)
+b=deci(a,n)
+print b[::-1]
