@@ -1,0 +1,4 @@
+#Campare Two List And Finding The Uncommon Element..
+l1=[1,2,5]
+l2=[1,2,5,7]
+print sum(l2)-sum(l1)
