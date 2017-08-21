@@ -1,0 +1,13 @@
+#find the trailing zeros in a factorial of any number..
+x=input()
+l=[]
+for i in range(0,x,1):
+    z=input()
+    l.append(z)
+for i in range(0,x,1):
+    sum=0
+    j=5
+    while(j<=l[i]):
+        sum+=l[i]/j
+        j=j*5
+    print sum
