@@ -1,0 +1,15 @@
+n=input()
+def fibo(a,b,n1):
+    if(n!=0 and n!=1 and n1!=n-1):
+        print b,
+        temp=a
+        a=b
+        b=b+temp
+        fibo(a,b,n1+1)
+    else:
+        print b,
+if(n==1):
+    print 0
+elif(n>1):
+    print 0,
+    fibo(0,1,1)
