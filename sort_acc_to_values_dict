@@ -1,0 +1,7 @@
+l=dict()
+n=input("enter the number of values ")
+for i in range(0,n,1):
+    m=raw_input().split()
+    l[m[0]]=m[1]
+for i in sorted(l.items(),key=lambda t:t[1]):
+    print i
