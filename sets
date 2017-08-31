@@ -1,0 +1,14 @@
+s1={1,2,3,4,5}
+s2={4,5,6,7}
+print "union is ",
+print s1|s2
+print "Intersection is ",
+print s1&s2
+print "set difference ",
+print s1-s2
+print "set symmetric difference ",
+print s1 ^ s2
+print "is subset ",
+print s1.issubset(s2)
+print "is superset ",
+print s1.issuperset(s2)
