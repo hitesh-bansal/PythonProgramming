@@ -1,0 +1,4 @@
+s=input("Enter the string ")
+print "String in upper case ",s.upper()
+print "String in lower case ",s.lower()
+print s.title()
