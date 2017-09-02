@@ -1,0 +1,16 @@
+l=[]
+top=-1
+def push(top,n):
+    l.append(n)
+    top+=1
+    return top
+def pop(top):
+    print l[top]
+    top=top-1
+    return top
+n=input()
+while(n!=-1):
+    top=push(top,n)
+    n=input()
+while(top!=-1):
+    top=pop(top)
