@@ -1,0 +1,9 @@
+import math
+a=input()
+l=[]
+for i in range(0,a):
+    n=input()
+    l.append(int(math.sqrt(n)))
+for i in range(0,a):
+    print l[i]
+ 
