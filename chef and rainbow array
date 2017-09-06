@@ -1,0 +1,21 @@
+n=input()
+for i in range(0,n,1):
+    n1=input()
+    l=(raw_input().split())
+    for k in range(0,n1,1):
+        l[k]=int(l[k])
+    k=n1-1
+    flag=0
+    if(l[n1/2]==7):
+        for j in range(0,n1,1):
+            if(l[j]!=l[k]):
+                flag=1
+                break
+            k-=1
+        if(flag==0):
+            print "yes\n"
+        else:
+            print "no\n"
+    else:
+        print"no\n"
+ 
